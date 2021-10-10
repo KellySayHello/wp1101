@@ -90,7 +90,7 @@ h1{
 
 .smallPhoto{
     
-    width: 60px;
+    width: 80px;
     height: 60px;
     /* justify-content: right; */
     /* display: flex;  
@@ -102,7 +102,7 @@ h1{
     /* justify-content: center; */
     background-size: 100%;
     transition: all 1.3s ease;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 
