@@ -29,6 +29,9 @@ h1{
     align-items: flex-start;
     left: 20%;
 }
+.column{
+    flex-direction: column;
+}
 
 .row1{
     display: flex;
@@ -78,9 +81,9 @@ h1{
     flex-wrap: nowrap;
     /* align-items:center; */
     position: relative;
-    top: 70%;
+    top: 60%;
     justify-content: right;
-    
+    overflow-y:auto;
     /* text-align: right; */
     /* float: right; */
 }
@@ -113,7 +116,7 @@ h1{
     
     width: 250px;
     height: 180px;
-    background-size: 100%;
+    /* background-size: 100%; */
     transition: all 1.3s ease;
     opacity: 1;
     object-fit: cover;
@@ -135,6 +138,7 @@ h1{
     transition: all 1.3s ease;
     opacity: 1;
     object-fit: cover;
+
 }
 
 
@@ -200,16 +204,38 @@ h1{
     height: 70px;
     font-size: 2.5em;
     font-family: 'Times New Roman', Times, serif;
-    background-color:transparent;
+    background-color:black;
     color: bisque;
     border-radius: 12px;
 }
 
+#null{
+    margin: 5px 5px;
+    width: 100px;
+    height: 70px;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:black;
+    color: bisque;
+    border-radius: 12px;
+}
+
+.none{
+    cursor: not-allowed;
+}
+
 .choose{
+    border:3px solid azure;
+    opacity: 0.5;
+}
+
+.chosen_but{
     background-color: azure;
     opacity: 1;
     color: black;
+    border:3px solid azure;
 }
+
 
 #cat:hover{
     background-color: azure;
@@ -249,6 +275,13 @@ h1{
 }
 
 #rabbit:hover{
+    background-color: azure;
+    opacity: 1;
+    cursor: pointer;
+    color: black;
+}
+
+#null:hover{
     background-color: azure;
     opacity: 1;
     cursor: pointer;

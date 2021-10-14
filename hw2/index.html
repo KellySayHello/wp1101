@@ -13,18 +13,20 @@
   />
 </head>
 <body>
-  <script src="main.js"></script>
+  <!-- <script src="main.js"></script> -->
     <div class="title">O lieb, so lang du lieben kannst !</div>
     <h1>you can turn on the music to get immersed in the delight of art !</h1>
     <div class="row">
-      <button id="cat" onclick="cat(this)" >cat</button>
+      <button id="cat" onclick="choose(0)" >cat</button>
       <div class="space"></div>
-      <button id="dog" onclick="dog(this)">dog</button>
+      <button id="dog" onclick="choose(1)">dog</button>
       <div class="space"></div>
-      <button id="rabbit" onclick="rabbit(this)">rabbit</button>
+      <button id="rabbit" onclick="choose(2)">rabbit</button>
+      <div class="space"></div>
+      <button id="null" onclick="choose(3)">empty</button>
     </div>
     <div class="smallSpace"></div>
-    <div class="container-left">
+    <div class="row">
         <div class="row2">
             <div class="space"></div>
             <div ><img id="smallPhoto1" img src="https://med.stanford.edu/news/all-news/2021/09/cat-fur-color-patterns/_jcr_content/main/image.img.620.high.jpg/cat_by-Kateryna-T-Unsplash.jpg" onclick="changeImage(this);"></img></div>
@@ -36,13 +38,12 @@
             <div ><img id="smallPhoto4" img src="https://mymodernmet.com/wp/wp-content/uploads/archive/J0R3qpz33gRJaWzcZ3eB_1082105479.jpeg" onclick="changeImage(this);"></img></div>
             <div class="space"></div>
         </div>
-        <div class="smallSpace"></div>
-        <div class="row">
-          <div class="space"></div>
-          <img id="bigPhoto" img src="https://med.stanford.edu/news/all-news/2021/09/cat-fur-color-patterns/_jcr_content/main/image.img.620.high.jpg/cat_by-Kateryna-T-Unsplash.jpg" ></img>
+        <div class="column">
+          <div class="smallSpace"></div>
+          <div><img id="bigPhoto" img src="https://www.thesprucepets.com/thmb/5YOHbja8lLg4KprPlJsNvS9mq50=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/guide-to-cat-eyes-552114-hero-75d820458de24543a35543a584b9eec6.jpg" ></img></div>
         </div>
     </div>
-
     
+  <script src="main.js"></script>
 </body>
 </html>
