@@ -4,7 +4,7 @@ let todoList=document.getElementById("todo-list");
 let footer=document.getElementById("todo-footer");
 
 let clear=document.getElementsByClassName("todo-app__clean");
-
+const getTodoId = (todo) => todo.firstElementChild.firstElementChild.id;
 
 let length=0;
 let todo=[];
@@ -39,7 +39,7 @@ const generateList= (I ,T)=>{
 
     cross.id=I;
     crossLable.htmlFor=I;
-    //cross.addEventListener('click',event=>remove(event.currentTarget.id));
+    cross.addEventListener('click',event=>remove(event.currentTarget.id));
 
     newItem.appendChild(inputText);
     newItem.appendChild(crossLable);
@@ -62,19 +62,20 @@ const appendList= (text)=>{
     leftItem();
 }
 
-// const remove= (I)=>{
-//     let index=I-1;
-//     todo.splice(index,1);
-//     length-=1;
-//     console.log(index);
-//     //console.log(todo);
-//     left();
-//     view();
-// }
+const remove= (I)=>{
+    let index = todo.findIndex((todo) => getTodoId(todo) === I);
+    console.log(index);
+    todo.splice(index,1);
+    // console.log(todo);
+    //length-=1;
+    //console.log(todo);
+    leftItem();
+    view();
+}
 
-const clearComplete= ()=>{
-    let newTodo=todo.filter(todo => !done(todo));
-    todo=newTodo;
+function clearComplete() {
+    let newTodo = todo.filter(todo => !done(todo));
+    todo = newTodo;
     view();
     leftItem();
 }
@@ -85,13 +86,21 @@ const view =()=>{
     }
     else if(footer.parentNode === root) root.removeChild(footer);
     
-    for(i=0;i<todo.length;i++){
+    while(todoList.lastElementChild){
+        todoList.removeChild(todoList.lastElementChild);
+    }
+    
+
+
+    //console.log("len = ", todo.length);
+    for(i=0 ; i < todo.length; i++){
         todoList.appendChild(todo[i]);
+        console.log("item = ", todo[i]);
     }
 }
 
 const checkDone= (_id,checked)=>{
-    let index=_id-1;
+    let  index = todo.findIndex((todo) => getTodoId(todo) === _id);
     todo[index].style["textDecoration"]=checked?"line-through":"";
     todo[index].style["opacity"]=checked?0.5:1;
    // left-=1;
@@ -111,11 +120,11 @@ const init =()=>{
         }
     }); 
 
-    // let clearButton=document.getElementById("clear_completed");
-    // clearButton.addEventListener('click',()=>clearComplete());
-    // view();
+    let clearButton=document.getElementById("clear_completed");
+    clearButton.addEventListener('click',()=>clearComplete());
+    
 
-    // clear.removeChild(clearButton);
+    clear.removeChild(clearButton);
 }
 
 init();
