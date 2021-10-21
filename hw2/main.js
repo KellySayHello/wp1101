@@ -57,7 +57,7 @@ function changeImage(imgs) {
     prev=current;
     current=imgs;
     // if(current_but===3) {
-        
+    //     ;
     // }
     if(count!=1){
         prev.classList.remove("choose");

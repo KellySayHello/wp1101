@@ -9,6 +9,10 @@ body{
     font-size:5em;
 }
 
+input{
+    font-size: 5em;
+}
+
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
