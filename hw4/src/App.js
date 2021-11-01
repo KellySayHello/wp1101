@@ -24,7 +24,7 @@ const Generate=()=>{
   
 
   const checkDone=(index)=>{
-    let tmp_todoList = todos.slice()
+    let tmp_todoList = todos.slice();
     tmp_todoList[index].checked=!tmp_todoList[index].checked;
     setTodo(tmp_todoList);
     // setTodo()
@@ -49,7 +49,7 @@ const Generate=()=>{
                 <h1 >
                   {todo.content}
                 </h1>
-                <img src={x} className="todo-app__item-x"></img>
+                <img src={x} className="todo-app__item-x" ></img>
               </li>)}
             </Fragment>
           </ul>

@@ -1,0 +1,39 @@
+input{
+    font-size: 10em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 500px;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
+    /* background-color: black; */
+    border:none;
+}
+
+input::placeholder{
+    color:rgb(146, 241, 151)
+}
+
+button{
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    font-size: 3em;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    border:none;
+    display: inline-block;
+    /* padding: 15px 32px; */
+}
+
+
+.row{
+    display: flex;
+}
+
+@keyframes glitter{
+    50%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
