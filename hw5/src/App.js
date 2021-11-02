@@ -12,6 +12,15 @@ const App=()=> {
   }
   // console.log(content[0]);
 
+  const reverse=(T)=>{
+    let tempt=parseFloat(T,10);
+    tempt=-tempt;
+    let str=tempt.toString();
+    content.pop();
+    setContent([str]);
+
+  }
+
   const clear =()=>{
     setContent([]);
   } 
@@ -67,7 +76,7 @@ const App=()=> {
         <button style={{color:"green"}} onClick={()=>{addContent("+")}}>+</button>
       </div>
       <div className="row-x">
-        <button style={{color:"black"}}>+/-</button>
+        <button style={{color:"black"}} onClick={()=>{reverse(content)}}>+/-</button>
         <button style={{color:"black"}} onClick={()=>{addContent("0")}}>0</button>
         <button style={{color:"black"}} onClick={()=>{addContent(".")}}>.</button>
         <button style={{color:"green"}} onClick={()=>equal(content)}>=</button>
