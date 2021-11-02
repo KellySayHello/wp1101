@@ -62,6 +62,7 @@ const Board = ({ boardSize, mineNum, backToHome }) => {
         {/* Reminder: Also remember to handle the condition that after you reveal this cell then you win the game. */}
         
     };
+    
 
     return(
         <div className = 'boardPage' >

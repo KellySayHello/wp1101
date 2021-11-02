@@ -16,13 +16,19 @@ import HomePage from '../components/HomePage'
 const MineSweeper = () => {
     const [startGame, setStartGame] = useState(false);      // A boolean variable. If true, show the Board, else show the HomePage.
     const [mineNum, setMineNum] = useState(10);             // A integer variable to store the number of mines in the game. The default value is 10.
-    const [boardSize, setBoardSize] = useState(8);          // A integer variable to store the board size in the game. The default value is 8.
+    const [boardSize, setBoardSize] = useState(8); 
+    
+    const router={
+        '../components/Board':()=><Board></Board>
+    }
+    // A integer variable to store the board size in the game. The default value is 8.
     
     {/* Useful Hint: The four functions below only need to fill up with those three hook functions above. */}
     {/* -- TODO 1-2 -- */}
     const startGameOnClick = () => {
         setStartGame(true);
-        <NavLink to='../components/Board'></NavLink>   
+        
+           
     }
     {/* -- TODO 6-2 -- */}
     const mineNumOnChange = () => {
