@@ -11,7 +11,8 @@ input::placeholder{
 }
 
 h1{
-    font-size: 5em;  
+    font-size: 5em;
+    font-family: 'Courier New', Courier, monospace;  
 }
 
 .space{
@@ -46,6 +47,7 @@ button:hover{
 
 .row-y{
     display: flex;
+    left: 100px;
     flex-direction: column;
     align-items: center;
     justify-content: center;

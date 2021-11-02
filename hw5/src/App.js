@@ -5,7 +5,6 @@ import './styles.css';
 const App=()=> {
   const [content,setContent]=useState([]);
   const [number,setNumber]=useState([0]);
-  let str='';
   // console.log(content[0]);
 
   const clear =()=>{
@@ -76,6 +75,7 @@ const App=()=> {
             setContent([parseFloat(num1)/parseFloat(num2)]);
           }
         }
+        // handleMath();
 
         break;
       }
