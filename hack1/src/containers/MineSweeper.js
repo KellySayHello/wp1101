@@ -8,7 +8,7 @@
 
 import React, { useState } from 'react';
 import './MineSweeper.css';
-import { BrowserRouter, NavLink } from 'react-router-dom'
+// import { BrowserRouter, NavLink } from 'react-router-dom'
 
 import Board from '../components/Board'
 import HomePage from '../components/HomePage'
