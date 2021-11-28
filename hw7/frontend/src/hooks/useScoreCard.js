@@ -19,6 +19,11 @@ const makeMessage = (message, color) => {
 const ScoreCardProvider = (props) => {
   const [messages, setMessages] = useState([]);
 
+  const clearCardMessage=()=>{
+    const mes = "Database cleared";
+    setMessages([mes,makeMessage(mes, REGULAR_MESSAGE_COLOR)])
+  };
+
   const addCardMessage = (message) => {
     setMessages([...messages, makeMessage(message, ADD_MESSAGE_COLOR)]);
   };
@@ -41,6 +46,7 @@ const ScoreCardProvider = (props) => {
         addCardMessage,
         addRegularMessage,
         addErrorMessage,
+        clearCardMessage
       }}
       {...props}
     />
