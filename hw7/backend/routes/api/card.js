@@ -18,8 +18,8 @@ exports.createScoreCard=async(req,res)=>{
     const subject=data.subject;
     const score=data.score;
 
-    const had=await ScoreCard.findOne({name:name,subject:subject,score:score});
-    if(had){
+    const exist=await ScoreCard.findOne({name:name,subject:subject});
+    if(exist){
         try{
             ScoreCard.updateOne({name:name,subject:subject},{score:score});
             res.status(200).send({message:`update (${name},${subject},${score})`});
@@ -29,21 +29,23 @@ exports.createScoreCard=async(req,res)=>{
         }
     }
     try{
-        const newScoreCard=new ScoreCard;
+        const newScoreCard= new ScoreCard(data);
         newScoreCard.save();
         res.status(200).send({message:`add (${name},${subject},${score})`});
         return;
     }catch(e){
         throw new Error("ScoreCard add error: "+e);
     }
+    
+    
 };
 
 exports.queryScoreCard = async(req,res)=>{
-    const type=req.query.type;
+    const queryType=req.query.type;
     const content=req.query.queryString;
 
     let query={};
-    query[type] = content;
+    query[queryType] = content;
     ScoreCard.find(query).exec((err,r)=>{
         if(err){
             console.log("error:" ,err);
@@ -53,7 +55,7 @@ exports.queryScoreCard = async(req,res)=>{
             for (let i=0;i<r.length;i++){
                 message[i]=`name:${r[i].name}, subject:${r[i].subject}, score:${r[i].score}`;
             }
-            res.status(200).send({message:message});
+            res.status(200).send({messages:message});
         }
     });
 }
