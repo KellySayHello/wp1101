@@ -22,7 +22,7 @@ exports.createScoreCard=async(req,res)=>{
     if(exist){
         try{
             ScoreCard.updateOne({name:name,subject:subject},{score:score});
-            res.status(200).send({message:`update (${name},${subject},${score})`});
+            res.status(200).send({message:`add (${name},${subject},${score})`});
             return;
         }catch(e){
             throw new Error("ScoreCard update error: "+e);
