@@ -1,4 +1,4 @@
 # wp1101
-basic requirement acheived with some bugs
+basic requirement acheived 
 開啟backend:node .\main.js
 開啟frontend:npm start
