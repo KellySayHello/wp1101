@@ -14,7 +14,7 @@ function Edit(props) {
   // TODO 4-(2): complete handleSubmit function to create a new post and save it to database 
   const handleSubmit = () => {
     const {
-      data: {message:message},
+      data: {message},
     } =instance.post('/api/newPost', {
       postId,
       title,
@@ -45,7 +45,8 @@ function Edit(props) {
         </div>
 
         <div className="post-content-container">
-          {/* TODO 4-(2): add property to Textfield to store the input */}
+          {/* TODO 4-(2): add property to Textfield to store the input */
+          }
           <TextField
             label="Content"
             variant="outlined"

@@ -12,6 +12,13 @@ function Post(props) {
 
   // TODO 3-(2): complete getPostDetail function to get the full information of a post from database
   const getPostDetail = () => {
+    const {
+      data: {message},
+    } =instance.post('/api/postDetail', {
+      params: {
+        queryString:postId
+      }
+    });
     
   }
 
