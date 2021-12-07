@@ -16,7 +16,7 @@ function Post(props) {
       data: {message},
     } =instance.post('/api/postDetail', {
       params: {
-        queryString:postId
+        queryString:pid
       }
     });
     

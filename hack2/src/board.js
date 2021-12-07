@@ -9,9 +9,7 @@ function Board(props) {
   
   // TODO 2-(2): fetch all posts from database
   useEffect(() => {
-    const {
-      data:{message}}
-  = instance.get('/api/allPosts')
+     instance.get('/api/allPosts')
     if(props) setPosts([...posts,[props.postId,props.title,props.content,props.timestamp]])
   }, [])
   
