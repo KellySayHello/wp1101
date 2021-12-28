@@ -1,61 +1,57 @@
-import { useState } from "react";
+import { useState } from 'react'
 const client = new WebSocket('ws://localhost:4000')
 
-
-
 const useChat = () => {
-  
-
-  const [messages, setMessages] = useState([]);
-  const [status, setStatus] = useState({});
+  const [messages, setMessages] = useState([])
+  const [status, setStatus] = useState({})
 
   client.onmessage = (byteString) => {
-    const { data } = byteString;
-    const [task, payload] = JSON.parse(data);  
-    
+    const { data } = byteString
+    const [task, payload] = JSON.parse(data)
+
     switch (task) {
-      case "output": {
-        setMessages(() =>  
-        [...messages, ...payload]);
-        break; 
+      case 'output': {
+        setMessages(() => [...messages, ...payload])
+        break
       }
-      case "status": {
-        setStatus(payload); 
-        break; 
+      case 'status': {
+        setStatus(payload)
+        break
       }
-      case "init": {
-        setMessages(() => payload);
-        break;
+      case 'init': {
+        setMessages(() => payload)
+        break
       }
-      
-      case "cleared": {
-        setMessages([]);
-        break;
+
+      case 'cleared': {
+        setMessages([])
+        break
       }
-  
-      default: break;
+
+      default:
+        break
     }
   }
 
   const sendData = async (data) => {
-    await client.send(JSON.stringify(data));
-  };
+    await client.send(JSON.stringify(data))
+  }
 
   const clearMessages = () => {
-		sendData(["clear"]);
-	};
-  
+    sendData(['clear'])
+  }
+
   const sendMessage = (payload) => {
-    sendData(["input", payload]);
-  };  
+    sendData(['input', payload])
+  }
   //const sendMessage = (msg) => { console.log(msg); }
 
   return {
     status,
     messages,
     sendMessage,
-    clearMessages
- };
-};
+    clearMessages,
+  }
+}
 
-export default useChat;
+export default useChat

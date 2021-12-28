@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
-const Message = styled.div`
+const Messages = styled.div`
   width: 100%;
-  height: 300px;
+  height: 200px;
   background: #eeeeee52;
   border-radius: 10px;
-  margin: 20px;
+  margin: 0px;
   padding: 20px;
   overflow: auto;
 `
 
-export default Message
+export default Messages
