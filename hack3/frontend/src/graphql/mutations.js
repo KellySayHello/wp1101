@@ -17,12 +17,12 @@ export const UPDATE_TASK_MUTATION = gql`
 // export const CREATE_TASK_MUTATION = gql`
 // `;
 export const CREATE_TASK_MUTATION = gql`
-  mutation createTask($input: CreateTaskInput!) {
-    createTask(input: $CreateTaskInput) {
+  mutation CreateTask($input: CreateTaskInput!) {
+    createTask(input: $input) {
       id
       title
       content
-      dueData
+      dueDate
       status
     }
   }
