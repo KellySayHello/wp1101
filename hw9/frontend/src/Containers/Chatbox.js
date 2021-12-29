@@ -44,9 +44,9 @@ const ChatBox = ({ me, friend, ...props }) => {
           return {
             //return to data at line 18
             ...prev,
-            chatbox: {
-              ...prev.chatbox,
-              messages: [...prev.chatbox.messages, newMessage],
+            chatBox: {
+              ...prev.chatBox,
+              messages: [...prev.chatBox.messages, newMessage],
             },
           }
         },
@@ -60,7 +60,7 @@ const ChatBox = ({ me, friend, ...props }) => {
   // console.log("messages in chatBox", data.chatBox.messages);
   return (
     <Messages>
-      {data.chatbox.messages.map(({ sender: { name }, content }, i) => {
+      {data.chatBox.messages.map(({ sender: { name }, body }, i) => {
         return me === name ? (
           <p className="App-message" key={i} align="right">
             <Space align="end">
@@ -76,7 +76,7 @@ const ChatBox = ({ me, friend, ...props }) => {
                   textAlign: 'left',
                 }}
               >
-                {content}
+                {body}
               </Paragraph>
               {name}
             </Space>
@@ -98,7 +98,7 @@ const ChatBox = ({ me, friend, ...props }) => {
                   textAlign: 'left',
                 }}
               >
-                {content}
+                {body}
               </Paragraph>
             </Space>
           </p>

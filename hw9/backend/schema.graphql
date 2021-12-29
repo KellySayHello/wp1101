@@ -1,36 +1,36 @@
 type Mutation {
-  createChatbox(name1: String, name2: String): Chatbox!
-  createMessage(from: String, to: String, message: String): Message!
-  createUser(username: String): User!
+	createChatBox(name1: String, name2: String): ChatBox!
+	createMessage(from: String, to: String, message: String): Message!
+	createUser(username: String): User!
 }
 type Query {
-  messages(sender: String): [Message!]
-  chatbox(name1: String, name2: String): Chatbox!
-  users(username: String): User!
+	messages(sender: String): [Message!]
+	chatBox(name1: String, name2: String): ChatBox!
+	users(username: String): User!
 }
 type Subscription {
-  message(name1: String!, name2: String!): MessageSubscriptionPayload!
+	message(name1: String!, name2: String!): MessageSubscriptionPayload!
 }
 
 type MessageSubscriptionPayload {
-  mutation: MutationType!
-  message: Message!
+	mutation: MutationType!
+	message: Message!
 }
 
 enum MutationType {
-  CREATED
+	CREATED
 }
-type Chatbox {
-  id: ID!
-  name: String!
-  messages: [Message]!
+type ChatBox {
+	id: ID!
+	name: String!
+	messages: [Message]!
 }
 type Message {
-  id: ID!
-  sender: User!
-  content: String!
+	id: ID!
+	sender: User!
+	body: String!
 }
 type User {
-  id: ID!
-  name: String!
+	id: ID!
+	name: String!
 }

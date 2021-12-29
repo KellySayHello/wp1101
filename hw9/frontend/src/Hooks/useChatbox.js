@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const useChatbox = () => {
+const useChatBox = () => {
   const [chatBoxes, setChatBoxes] = useState([])
 
   const createChatBox = (friend) => {
@@ -29,4 +29,4 @@ const useChatbox = () => {
     removeChatBox,
   }
 }
-export default useChatbox
+export default useChatBox

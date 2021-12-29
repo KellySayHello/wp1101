@@ -8,7 +8,7 @@ export const MESSAGE_SUBSCRIPTION = gql`
         sender {
           name
         }
-        content
+        body
       }
     }
   }

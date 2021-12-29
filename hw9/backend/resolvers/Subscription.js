@@ -9,3 +9,4 @@ const Subscription = {
   },
 }
 export default Subscription
+// export { Subscription as default };

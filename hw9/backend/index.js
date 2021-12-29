@@ -5,19 +5,19 @@ import Query from './resolvers/Query'
 import Mutation from './resolvers/Mutation'
 import Subscription from './resolvers/Subscription'
 // import User from "./resolvers/User";
-import Chatbox from './resolvers/Chatbox'
+import ChatBox from './resolvers/ChatBox'
 import Message from './resolvers/Message'
 
 const pubsub = new PubSub()
 
 const server = new GraphQLServer({
-  typeDefs: "./schema.graphql",
+  typeDefs: './schema.graphql',
   resolvers: {
     Query,
     Mutation,
     Subscription,
     Message,
-    Chatbox,
+    ChatBox,
   },
   context: {
     db,
