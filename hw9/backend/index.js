@@ -5,7 +5,7 @@ import Query from './resolvers/Query'
 import Mutation from './resolvers/Mutation'
 import Subscription from './resolvers/Subscription'
 // import User from "./resolvers/User";
-import ChatBox from './resolvers/ChatBox'
+import ChatBox from './resolvers/Chatbox'
 import Message from './resolvers/Message'
 
 const pubsub = new PubSub()
