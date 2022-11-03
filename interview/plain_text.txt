@@ -1,0 +1,958 @@
+{
+  user: {
+    name: 'ronnywang',
+    id: 'ronnywang',
+    keyword: '全端工程師 開放資料 揪松',
+    intro: '',
+    avatar: 'https://secure.gravatar.com/avatar/ff8938a33e3709b362562afdd0f3bbf7.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0014-512.png'
+  },
+  services: [
+    {
+      name: 'Ronny Wang',
+      service: 'Hackpad',
+      service_id: 3,
+      serviceuser_id: 1720
+    },
+    {
+      name: 'Ronny Wang',
+      service: 'Github',
+      service_id: 5,
+      serviceuser_id: 1893
+    },
+    {
+      name: 'ronnywang',
+      service: 'Github',
+      service_id: 5,
+      serviceuser_id: 2073,
+      link: 'https://github.com/ronnywang'
+    },
+    {
+      name: 'ronnywang',
+      service: 'KKTIX',
+      service_id: 7,
+      serviceuser_id: 2184
+    },
+    {
+      name: 'Ronny Wang',
+      service: 'HackMD',
+      service_id: 1,
+      serviceuser_id: 1134,
+      link: 'https://g0v.hackmd.io/@SA7CD7VRSp6Fcqw9CaElcQ'
+    },
+    {
+      name: 'ronnywang',
+      service: 'Slack',
+      service_id: 2,
+      serviceuser_id: 108,
+      link: 'https://g0v-tw.slack.com/team/U038DCDRC'
+    }
+  ],
+  badges: [
+    {
+      serviceuser_id: 1720,
+      brief: '參與 10 個 Pad',
+      time: '2014-01-13',
+      title: '斧頭幫入會挑戰 (Crawler War Game) 發想',
+      url: 'https://g0v.hackpad.tw/UG3PJ9SLf7A',
+      rank: 36,
+      total: 205
+    },
+    {
+      serviceuser_id: 1720,
+      brief: '建立 10 個 Pad',
+      time: '2014-10-18',
+      title: '經濟部商業司董監事法人錯誤整理',
+      url: 'https://g0v.hackpad.tw/bAN3LlsUSrh',
+      rank: 23,
+      total: 56
+    },
+    {
+      serviceuser_id: 1720,
+      brief: '參與 50 個 Pad',
+      time: '2015-10-24',
+      title: '司法院Open Data計畫',
+      url: 'https://g0v.hackpad.tw/BHRG3oHic6r',
+      rank: 35,
+      total: 52
+    },
+    {
+      serviceuser_id: 1720,
+      brief: '參與 100 個 Pad',
+      time: '2017-12-15',
+      title: '2017 開放政治獻金再啟動',
+      url: 'https://g0v.hackpad.tw/8oBrDIGk5he',
+      rank: 25,
+      total: 26
+    },
+    {
+      serviceuser_id: 1720,
+      brief: '建立 50 個 Pad',
+      time: '2018-01-13',
+      title: '求職小幫手復活',
+      url: 'https://g0v.hackpad.tw/v35eOZ6CVGI',
+      rank: 11,
+      total: 13
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 TWLegislativeYuanData 送出 10 個 commit',
+      time: '2012-11-24',
+      title: '用參數傳網址進去',
+      url: 'https://github.com/g0v/TWLegislativeYuanData/commit/863bef2ae231258ca7907a3aab6107f13a0c423f',     
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '送出 10 個 commit',
+      time: '2012-11-24',
+      title: '用參數傳網址進去',
+      url: 'https://github.com/g0v/TWLegislativeYuanData/commit/863bef2ae231258ca7907a3aab6107f13a0c423f',     
+      rank: 4,
+      total: 170
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 url-normalizer.js 送出 10 個 commit',
+      time: '2013-12-30',
+      title: '增加 www.cna.com.tw #2',
+      url: 'https://github.com/g0v/url-normalizer.js/commit/8c6713fd073b486a0bb7e0393b0e90383a8865b4',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '送出 50 個 commit',
+      time: '2014-01-05',
+      title: "Merge branch 'master' of github.com:g0v/url-normalizer.js",
+      url: 'https://github.com/g0v/url-normalizer.js/commit/dd49124940defc650816ea1a42f63091786811cd',
+      rank: 15,
+      total: 70
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 newshelper-backend 送出 10 個 commit',
+      time: '2014-04-13',
+      title: '修正自由連結',
+      url: 'https://github.com/g0v/newshelper-backend/commit/181f88c856b2c55597d7d4618d6809c4d96f403f',        
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 excel-data-tool 送出 10 個 commit',
+      time: '2016-03-05',
+      title: 'default col_line to 0',
+      url: 'https://github.com/g0v/excel-data-tool/commit/99133847493757b8708d4bfdfbd5ec9ffd860379',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '送出 100 個 commit',
+      time: '2016-04-28',
+      title: '拿掉只允許 Amazon CloudFront 存取的限制',
+      url: 'https://github.com/g0v/newshelper-backend/commit/9faa5f27a97210a5a623409c3801121dc2bb8313',        
+      rank: 21,
+      total: 33
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 g0v-search-api 送出 10 個 commit',
+      time: '2016-10-09',
+      title: '加上更新 hackpad 的 script',
+      url: 'https://github.com/g0v/g0v-search-api/commit/a3f804264934e079e1dbd32c36919c516be6c854',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '參與 10 個 repo',
+      time: '2017-11-25',
+      title: 'add pixframework',
+      url: 'https://github.com/g0v/api.ly-php/commit/bb30c12a969bb3e659008e5323a9c0dbd7710f98',
+      rank: 19,
+      total: 25
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '送出 200 個 commit',
+      time: '2018-06-08',
+      title: '先移除 typeform ，目前已經大改版過無法使用',
+      url: 'https://github.com/g0v/fto-onebutton/commit/c913bece577b53e115db1415d7880dd67e4b34b7',
+      rank: 14,
+      total: 23
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 g0v.tw 送出 10 個 commit',
+      time: '2018-07-20',
+      title: '移除 updated_at 的條件',
+      url: 'https://github.com/g0v/g0v.tw/commit/819e64c66462b10e5185443904b2fee38b44470b',
+      rank: 5,
+      total: 7
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 grantdash 送出 10 個 commit',
+      time: '2018-11-30',
+      title: '統一數字和標點符號',
+      url: 'https://github.com/g0v/grantdash/commit/b6dde00afa3e57f8d92edf1c3383f6ae639fabac',
+      rank: 3,
+      total: 3
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 twbudget 送出 10 個 commit',
+      time: '2019-03-06',
+      title: 'Merge pull request #29 from ronnywang/master\n' +
+        '更新 2019 年資料，並且更新 package.ls 讓 heroku 可以跑',
+      url: 'https://github.com/g0v/twbudget/commit/da5a6244cbb671564293ecd368bf4c9aba5f2f82',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 OneButton 送出 10 個 commit',
+      time: '2019-08-16',
+      title: 'Revert "remove shorten url because hackfoldr not supported"\n' +
+        'This reverts commit 063d4f58ced6f7a3ca528eb68b3a025f76725efa.',
+      url: 'https://github.com/g0v/OneButton/commit/0bb16b7e9b4ac55190215a172c831f6152a6a504',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 fto-onebutton 送出 10 個 commit',
+      time: '2019-08-16',
+      title: 'Revert "remove shorten url because hackfoldr not supported"\n' +
+        'This reverts commit 063d4f58ced6f7a3ca528eb68b3a025f76725efa.',
+      url: 'https://github.com/g0v/fto-onebutton/commit/0bb16b7e9b4ac55190215a172c831f6152a6a504',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 2d-online-chat 送出 10 個 commit',
+      time: '2020-03-25',
+      title: 'add chat feature',
+      url: 'https://github.com/g0v/2d-online-chat/commit/f48b6140f7be29d999d99c2aa143e0cef69e70f5',
+      rank: 1,
+      total: 2
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '送出 300 個 commit',
+      time: '2020-03-26',
+      title: 'add open_tileset',
+      url: 'https://github.com/g0v/2d-online-chat/commit/be97d25956e39686255175755529b7dcdb2be72a',
+      rank: 10,
+      total: 12
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 2d-online-chat 送出 50 個 commit',
+      time: '2020-03-28',
+      title: 'add teleport feature',
+      url: 'https://github.com/g0v/2d-online-chat/commit/194cf0d0206c6f9ee25c1d195f9f2997eaf4398a',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 g0v-intro 送出 10 個 commit',
+      time: '2020-04-13',
+      title: 'update User::fetchUser(), add update option',
+      url: 'https://github.com/g0v/g0v-intro/commit/27876468d1d7a44f7619909e1b18de670707c475',
+      rank: 1,
+      total: 2
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '送出 400 個 commit',
+      time: '2020-04-25',
+      title: 'support channels from different servers',
+      url: 'https://github.com/g0v/g0v-intro/commit/9d2ccb7a052d08ba33c8d80151d7723a5f0bda47',
+      rank: 8,
+      total: 10
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 2d-online-chat 送出 100 個 commit',
+      time: '2020-05-17',
+      title: 'Merge pull request #2 from yutin1987/gh-pages\n' +
+        'style(hero): move name to down',
+      url: 'https://github.com/g0v/2d-online-chat/commit/3e36f15aa97119c9c407368a768e0c928ff54464',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 jitsi-screen 送出 10 個 commit',
+      time: '2020-11-17',
+      title: 'add update_screen_video on TRACK_ADDED and TRACK_REMOVED',
+      url: 'https://github.com/g0v/jitsi-screen/commit/b99f7f6e9c585529a53743c91a43cfb266734bdd',
+      rank: 1,
+      total: 2
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 api.ly-php 送出 10 個 commit',
+      time: '2020-12-11',
+      title: 'add new bill',
+      url: 'https://github.com/g0v/api.ly-php/commit/5745fc85b394cf6459258f0c8535d7076df272fe',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 lysayit 送出 10 個 commit',
+      time: '2022-02-19',
+      title: 'rewrite list page',
+      url: 'https://github.com/g0v/lysayit/commit/3a4379c36d842f5644f31207350c0902a5a3ca88',
+      rank: 2,
+      total: 2
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '送出 500 個 commit',
+      time: '2022-04-09',
+      title: 'add default name',
+      url: 'https://github.com/g0v/donate-checker/commit/e7fee52c3758c469e7e5e8cbda14784d63c704e3',
+      rank: 8,
+      total: 9
+    },
+    {
+      serviceuser_id: 1893,
+      brief: '在 domain 送出 10 個 commit',
+      time: '2022-07-11',
+      title: 'Merge pull request #61 from Lafudoci/master\n' +
+        'Update airmap.g0v.tw doamins to new IP',
+      url: 'https://github.com/g0v/domain/commit/8ceca7e9ab23c80966696942ddd671dc694da26b',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '建立了 10 個 issue',
+      time: '2013-08-12',
+      title: '單一項目頁面會有錯誤',
+      url: 'https://github.com/g0v/twbudget/issues/4',
+      rank: 12,
+      total: 101
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '回應了 10 個 issue',
+      time: '2013-08-19',
+      title: 'Notification 的部份目前沒有圖片',
+      url: 'https://github.com/g0v/newshelper-extension/issues/3',
+      rank: 16,
+      total: 89
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '在 newshelper-backend 回應了 10 個 issue',
+      time: '2013-08-22',
+      title: '討論一下「新聞網址」跟「回報」的關係',
+      url: 'https://github.com/g0v/newshelper-backend/issues/11',
+      rank: 1,
+      total: 2
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '在 newshelper-extension 回應了 10 個 issue',
+      time: '2013-09-04',
+      title: '解決同一個 URL 的回報被修改一直噴 notification 會很煩的問題',
+      url: 'https://github.com/g0v/newshelper-extension/issues/18',
+      rank: 1,
+      total: 2
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '在 url-normalizer.js 回應了 10 個 issue',
+      time: '2013-12-30',
+      title: '加上新頭殼網址',
+      url: 'https://github.com/g0v/url-normalizer.js/issues/6',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '回應了 50 個 issue',
+      time: '2013-12-30',
+      title: '加上新頭殼網址',
+      url: 'https://github.com/g0v/url-normalizer.js/issues/6',
+      rank: 7,
+      total: 30
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '參與 10 個 repo 的 issue',
+      time: '2016-03-06',
+      title: 'Add License and README in English',
+      url: 'https://github.com/g0v/excel-data-tool/issues/1',
+      rank: 23,
+      total: 32
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '建立了 50 個 issue',
+      time: '2017-01-21',
+      title: 'citizen.wiki.g0v.tw 服務不正常',
+      url: 'https://github.com/g0v/domain/issues/3',
+      rank: 17,
+      total: 28
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '回應了 100 個 issue',
+      time: '2017-01-21',
+      title: 'request.data.g0v.tw 服務不正常',
+      url: 'https://github.com/g0v/domain/issues/4',
+      rank: 9,
+      total: 12
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '在 domain 回應了 10 個 issue',
+      time: '2017-04-05',
+      title: 'Apply for cofacts.g0v.tw and api.cofacts.g0v.tw',
+      url: 'https://github.com/g0v/domain/issues/10',
+      rank: 1,
+      total: 2
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '在 domain 回應了 50 個 issue',
+      time: '2019-05-23',
+      title: '申請幫 hack.g0v.tw 加上 jothon.g0v.tw 網域',
+      url: 'https://github.com/g0v/domain/issues/27',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '回應了 200 個 issue',
+      time: '2020-05-15',
+      title: '申請 sch001.g0v.dev 網址',
+      url: 'https://github.com/g0v/domain/issues/40',
+      rank: 6,
+      total: 6
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '在 domain 回應了 100 個 issue',
+      time: '2020-06-07',
+      title: '申請轉址 sch001.g0v.tw 至 grantdash.io',
+      url: 'https://github.com/g0v/domain/issues/44',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 2073,
+      brief: '在 domain 建立了 10 個 issue',
+      time: '2021-01-12',
+      title: '申請 ethercalc-cache.g0v.tw',
+      url: 'https://github.com/g0v/domain/issues/48',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 1 次大松',
+      time: '2012-12-01',
+      title: 'g0v.tw hackath0n | 台灣零時政府第零次動員戡亂黑客松',
+      url: 'https://g0v-tw.kktix.cc/events/dab224',
+      rank: 1,
+      total: 124
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 3 次大松',
+      time: '2013-06-08',
+      title: 'g0v.tw hackath3n | 台灣零時政府第參次客廳工廠黑客松 - 台北場',
+      url: 'https://g0v-tw.kktix.cc/events/g0v-hackath3n-taipei',
+      rank: 7,
+      total: 124
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 1 次小松',
+      time: '2013-09-24',
+      title: 'g0v pre-hackath5n 秋天松',
+      url: 'https://g0v-tw.kktix.cc/events/g0v-pre-hackath5n',
+      rank: 19,
+      total: 121
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 5 次大松',
+      time: '2013-10-20',
+      title: 'g0v.tw hackath5n | 台灣零時政府第伍次美麗島黑客松',
+      url: 'https://g0v-tw.kktix.cc/events/g0v-hackath5n-taipei',
+      rank: 5,
+      total: 119
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 3 次小松',
+      time: '2014-05-13',
+      title: '5/13 基礎建設迷你松',
+      url: 'https://g0v-tw.kktix.cc/events/g0v-infrath0n',
+      rank: 30,
+      total: 98
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 5 次小松',
+      time: '2014-09-03',
+      title: 'g0v Summit 2014',
+      url: 'https://summit.g0v.tw/2014/',
+      rank: 20,
+      total: 74
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 10 次大松',
+      time: '2014-12-20',
+      title: 'g0v.tw hackath11n | 台灣零時政府第拾壹次開放報禁黑客松',
+      url: 'https://g0v-tw.kktix.cc/events/g0v-hackath11n',
+      rank: 3,
+      total: 75
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 15 次大松',
+      time: '2015-12-26',
+      title: 'g0v hackath17n | 台灣零時政府第拾柒次立委改選黑客松',
+      url: 'https://g0v-jothon.kktix.cc/events/g0v-hackath17n',
+      rank: 2,
+      total: 41
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 10 次小松',
+      time: '2017-01-21',
+      title: 'g0v 第陸次基礎建設「大平台」松 - 1/21',
+      url: 'https://g0v-jothon.kktix.cc/events/infrath6n',
+      rank: 14,
+      total: 32
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 20 次大松',
+      time: '2017-03-04',
+      title: 'g0v hackath23n | 台灣零時政府第貳拾參次開放資料黑客松',
+      url: 'https://g0v-jothon.kktix.cc/events/g0v-hackath23n',
+      rank: 1,
+      total: 25
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 15 次小松',
+      time: '2017-10-21',
+      title: 'g0v 第玖次基礎建設松',
+      url: 'https://g0v-jothon.kktix.cc/events/infrath9n',
+      rank: 7,
+      total: 17
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 25 次大松',
+      time: '2018-01-13',
+      title: 'g0v hackath28n | 台灣零時政府第貳拾捌次高牆功德黑客松',
+      url: 'https://g0v-jothon.kktix.cc/events/g0v-hackath28n',
+      rank: 1,
+      total: 11
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 20 次小松',
+      time: '2018-12-16',
+      title: 'g0v Summit 2018 影片回顧馬拉松（a.k.a.補課松）',
+      url: 'https://g0v-summit2018.kktix.cc/events/6f8d6d30',
+      rank: 5,
+      total: 8
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 30 次大松',
+      time: '2019-03-09',
+      title: 'g0v hackath33n | 台灣零時政府第參拾參次不顧北京反對___黑客松',
+      url: 'https://g0v-jothon.kktix.cc/events/g0v-hackath33n',
+      rank: 1,
+      total: 5
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 25 次小松',
+      time: '2020-01-18',
+      title: 'g0v 第拾伍次基礎建設松',
+      url: 'https://g0v-jothon.kktix.cc/events/infrath15n',
+      rank: 4,
+      total: 5
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 35 次大松',
+      time: '2021-01-23',
+      title: 'g0v hackath42n | 台灣零時政府第肆拾貳次生命、宇宙以及萬事萬物的終極答案黑客松',
+      url: 'https://g0v-jothon.kktix.cc/events/g0v-hackath42n',
+      rank: 2,
+      total: 4
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 30 次小松',
+      time: '2021-02-20',
+      title: '小學校松 Sch001 2021 Workshop I',
+      url: 'https://g0v-jothon.kktix.cc/events/sch001-2021-wsi',
+      rank: 4,
+      total: 4
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 40 次大松',
+      time: '2021-12-11',
+      title: 'g0v hackath47n | 台灣零時政府第肆拾柒次板橋油庫口黑客松',
+      url: 'https://g0v-jothon.kktix.cc/events/g0v-hackath47n',
+      rank: 1,
+      total: 1
+    },
+    {
+      serviceuser_id: 2184,
+      brief: '參加了 35 次小松',
+      time: '2022-09-24',
+      title: '數位洄瀾黑客松',
+      url: 'https://g0v-jothon.kktix.cc/events/g0v-hualienthon2022',
+      rank: 3,
+      total: 3
+    },
+    {
+      serviceuser_id: 1134,
+      brief: '參與 10 個 Note',
+      time: '2018-08-18',
+      title: '20180818 投票指南記者會共筆',
+      url: 'https://g0v.hackmd.io/tlXz0CSxQ1-fq6c_97ubsA',
+      rank: 14,
+      total: 566
+    },
+    {
+      serviceuser_id: 1134,
+      brief: '參與 50 個 Note',
+      time: '2019-01-02',
+      title: '標案開放資料討論',
+      url: 'https://g0v.hackmd.io/3SfsTv4dT06CNF7O-TWclg',
+      rank: 39,
+      total: 202
+    },
+    {
+      serviceuser_id: 1134,
+      brief: '建立 10 個 Note',
+      time: '2019-01-02',
+      title: '標案開放資料討論',
+      url: 'https://g0v.hackmd.io/3SfsTv4dT06CNF7O-TWclg',
+      rank: 10,
+      total: 54
+    },
+    {
+      serviceuser_id: 1134,
+      brief: '參與 100 個 Note',
+      time: '2019-03-13',
+      title: '20190313 vTaiwan 小黑客松',
+      url: 'https://g0v.hackmd.io/1CQHwnNXTtuvTuIqnbJrFQ',
+      rank: 26,
+      total: 124
+    },
+    {
+      serviceuser_id: 1134,
+      brief: '參與 200 個 Note',
+      time: '2019-05-15',
+      title: 'g0ver 參與選舉注意事項（草案）',
+      url: 'https://g0v.hackmd.io/vekaP3n7TUyXXODZMCWXjA',
+      rank: 17,
+      total: 75
+    },
+    {
+      serviceuser_id: 1134,
+      brief: '參與 300 個 Note',
+      time: '2019-06-12',
+      title: '電視松回信',
+      url: 'https://g0v.hackmd.io/CiFY9waBTdK_kjFOHhOkWw',
+      rank: 13,
+      total: 58
+    },
+    {
+      serviceuser_id: 1134,
+      brief: '參與 400 個 Note',
+      time: '2019-06-22',
+      title: '20190622 第壹次電視松 hackatv1n × 公視 PTS',
+      url: 'https://g0v.hackmd.io/TGP1j7XnTU6I0jslipfzEg',
+      rank: 11,
+      total: 45
+    },
+    {
+      serviceuser_id: 1134,
+      brief: '參與 500 個 Note',
+      time: '2019-07-20',
+      title: 'g0v.news 社群治理機制／g0v.news governance',
+      url: 'https://g0v.hackmd.io/t5qvF5BARUa0yEKYdNG7QA',
+      rank: 7,
+      total: 33
+    },
+    {
+      serviceuser_id: 1134,
+      brief: '參與 1000 個 Note',
+      time: '2020-04-15',
+      title: '20200415 vTaiwan 小黑客松',
+      url: 'https://g0v.hackmd.io/w3t8IHCSQ-aLTtShLlCqow',
+      rank: 9,
+      total: 15
+    },
+    {
+      serviceuser_id: 1134,
+      brief: '建立 100 個 Note',
+      time: '2021-03-02',
+      title: '如何將台南的現在地址轉換成日治時代地址',
+      url: 'https://g0v.hackmd.io/KQN7y0-uRc2nQ3pN2F_OZg',
+      rank: 7,
+      total: 10
+    },
+    {
+      serviceuser_id: 1134,
+      brief: '建立 50 個 Note',
+      time: '2021-07-16',
+      title: '地理整合工具',
+      url: 'https://g0v.hackmd.io/JiAUdt_IQQ-GRmB71o-81w',
+      rank: 18,
+      total: 19
+    },
+    {
+      serviceuser_id: 108,
+      brief: '發言 10 次',
+      time: '2015-07-08',
+      title: '<https://sheethub.com/area.reference.tw/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E8%A1%8C%E6%94%BF%E5%8D%80/linelink/09020>  像是現在 URI 頁也有哪些 sheet 有連結到這一筆資料的功能，這樣以後只要搜尋 "金門 人口" 就可以找到有連結到金門縣又有人口兩字欄位的資料',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2015-07#ts-1436345065.004965',      
+      rank: 107,
+      total: 910
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 general 頻道發言 10 次',
+      time: '2015-07-08',
+      title: '<https://sheethub.com/area.reference.tw/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E8%A1%8C%E6%94%BF%E5%8D%80/linelink/09020>  像是現在 URI 頁也有哪些 sheet 有連結到這一筆資料的功能，這樣以後只要搜尋 "金門 人口" 就可以找到有連結到金門縣又有人口兩字欄位的資料',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2015-07#ts-1436345065.004965',      
+      rank: 77,
+      total: 382
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 dbootcamp 頻道發言 10 次',
+      time: '2015-07-15',
+      title: '<http://tabula.ronny.tw/> 用我的 t1.micro 跑的 tabula',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C0564RNMK/2015-07#ts-1436942849.000516',      
+      rank: 7,
+      total: 10
+    },
+    {
+      serviceuser_id: 108,
+      brief: '發言 50 次',
+      time: '2015-08-06',
+      title: '不知道用什麼名字的時候，用小幫手就對了 XD',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2015-08#ts-1438847156.001417',      
+      rank: 48,
+      total: 352
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 general 頻道發言 50 次',
+      time: '2015-09-02',
+      title: '然後自己讀取的程式也不是把 GeoJSON 當作單一 json 在讀，是用一行一行讀，遇到  {"type":feature",   開頭的再各別 json_decode',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2015-09#ts-1441202373.001387',      
+      rank: 35,
+      total: 115
+    },
+    {
+      serviceuser_id: 108,
+      brief: '發言 100 次',
+      time: '2015-09-02',
+      title: '不對，這個東西超有商業模式的.......因為用這個程式之後就可以直接完成新的補助案了',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2015-09#ts-1441204393.001405',      
+      rank: 40,
+      total: 239
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 pm25 頻道發言 10 次',
+      time: '2016-03-05',
+      title: '不知道有沒有機會請學校的廠商鎖 mac address 不用認證',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C091S7KH8/2016-03#ts-1457185716.000121',      
+      rank: 11,
+      total: 17
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 general 頻道發言 100 次',
+      time: '2016-03-28',
+      title: '但是如果再參入一些幽靈票進去，這些幽靈票也是匿名的',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2016-03#ts-1459151378.000754',      
+      rank: 37,
+      total: 77
+    },
+    {
+      serviceuser_id: 108,
+      brief: '發言 200 次',
+      time: '2016-03-28',
+      title: '一開始 A1, A2 ... A2300萬 每人發0.01bitcoin ，然後他們自行把錢轉給 B1, B2 ... 等候選人，最後看誰 錢多的贏，這應該是 bitcoin 模式吧',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2016-03#ts-1459155237.000833',      
+      rank: 36,
+      total: 143
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 general 頻道發言 200 次',
+      time: '2016-07-23',
+      title: '<http://join.gov.tw/openup/govcontact/index>',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2016-07#ts-1469254922.000435',      
+      rank: 26,
+      total: 52
+    },
+    {
+      serviceuser_id: 108,
+      brief: '發言 300 次',
+      time: '2016-09-02',
+      title: '越來越有衝動想買發電機了 XD',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C26NG5K71/2016-09#ts-1472778561.000006',      
+      rank: 33,
+      total: 111
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 sea 頻道發言 10 次',
+      time: '2016-09-05',
+      title: '我坐到士林了',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C26NG5K71/2016-09#ts-1473039871.000008',      
+      rank: 2,
+      total: 2
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 infras 頻道發言 10 次',
+      time: '2016-10-08',
+      title: '不過 pgsql 跟 mysql  用帳號密碼分開權限很容易，elasticsearch  好像比較麻煩',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C0386M58S/2016-10#ts-1475895761.000070',      
+      rank: 2,
+      total: 18
+    },
+    {
+      serviceuser_id: 108,
+      brief: '發言 400 次',
+      time: '2016-12-15',
+      title: '新作了一個 API ，只要把 <http://misq.ly.gov.tw|misq.ly.gov.tw> 裡面的關係文書的網址，像是 <http://lci.ly.gov.tw/LyLCEW/agenda1/02/pdf/09/02/03/LCEWA01_090203_00008.pdf> ，其中 <http://gov.tw|gov.tw> 改成 <http://govapi.tw|govapi.tw> ，就可以變成 JSON API   ，結果：  <http://lci.ly.govapi.tw/LyLCEW/agenda1/02/pdf/09/02/03/LCEWA01_090203_00008.pdf>',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2016-12#ts-1481775202.000632',      
+      rank: 30,
+      total: 96
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 general 頻道發言 300 次',
+      time: '2017-01-02',
+      title: '<@U02G2US2Z> ok,改好囉',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2017-01#ts-1483375982.001415',      
+      rank: 23,
+      total: 36
+    },
+    {
+      serviceuser_id: 108,
+      brief: '發言 500 次',
+      time: '2017-01-25',
+      title: '我猜公務員會覺得不宜公開是因為勞基法只寫到 "有前二項規定行為之一者，得公布其事業單位或事業主之名 稱、負責人姓名，並限期令其改善；屆期未改善者，應按次處罰。"',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2017-01#ts-1485339910.002427',
+      rank: 27,
+      total: 81
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 cofacts 頻道發言 10 次',
+      time: '2017-02-20',
+      title: '現在有 94 組報名，最後刪掉一些不合條件的應該也有八十幾組，對評審來說的確是需要整天時間現場問答', 
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C2PPMRQGP/2017-02#ts-1487569198.000041',      
+      rank: 6,
+      total: 56
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 general 頻道發言 400 次',
+      time: '2017-03-04',
+      title: '登山輔助可能可以納入 <http://data.gov.tw/node/35430>',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2017-03#ts-1488594889.003843',      
+      rank: 18,
+      total: 26
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 10 個頻道發言',
+      time: '2017-05-06',
+      title: '<@U03859W2Z> 你是用什麼方式要連入?',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C59M1NZV2/2017-05#ts-1494039296.543154',      
+      rank: 16,
+      total: 100
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 middle2 頻道發言 10 次',
+      time: '2017-05-06',
+      title: '這邊我可能要更正一下錯誤訊息',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C59M1NZV2/2017-05#ts-1494085429.528102',      
+      rank: 1,
+      total: 7
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 newshelper 頻道發言 10 次',
+      time: '2017-05-06',
+      title: '目前時間還未訂',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C59P99Q77/2017-05#ts-1494085460.716160',      
+      rank: 1,
+      total: 7
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 middle2 頻道發言 50 次',
+      time: '2017-05-08',
+      title: '在專案頁會有建 tunnel 的指令，像是「ssh -L3306:139.162.81.196:3306 <mailto:___@___._______.___|___@___._______.___> tunnel taoyuan-chiang-872029」',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C59M1NZV2/2017-05#ts-1494208744.502236',      
+      rank: 1,
+      total: 3
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 general 頻道發言 500 次',
+      time: '2017-05-11',
+      title: '游錫方方土表示高興',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C02G2SXKX/2017-05#ts-1494503109.687219',      
+      rank: 17,
+      total: 24
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 jothon 頻道發言 10 次',
+      time: '2017-06-14',
+      title: '\b2000年史上第一次政黨輪替',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C0385B90D/2017-06#ts-1497428478.301349',      
+      rank: 24,
+      total: 68
+    },
+    {
+      serviceuser_id: 108,
+      brief: '在 middle2 頻道發言 100 次',
+      time: '2017-08-02',
+      title: '目前 <http://foundations.olc.tw|foundations.olc.tw> 是 middle2 上面 PV 第五名 XD',
+      url: 'https://g0v-slack-archive.g0v.ronny.tw/index/channel/C59M1NZV2/2017-08#ts-1501659338.292149',      
+      rank: 1,
+      total: 1
+    },
+    ... 86 more items
+  ]
+}
